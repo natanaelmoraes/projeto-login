@@ -51,3 +51,12 @@ main{
     padding: 10px;
     display: block;
 }
+
+div h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div p{
+    font-size: 0.8em;
+}
