@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#5f2c82;
+    --cor1:#49a09d;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width: 80vw; /* para a div ter 80 de tamanho da tela */
+    }
+
+    #imagem{
+        float: left; /* adicionar a imagem a esquerda da div */
+        width: 30%; /* largura da imagem */
+        height: 100%; /* altura da imagem */
+    }
+    #formulario{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width:950px
+    }
+
+    #imagem{
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario{
+        float: right;
+        width: 50%;
+    }
+}
