@@ -19,17 +19,17 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <span class="material-symbols-outlined">person</span> <!-- icone do google -->
+                        <label for="iemail"><span class="material-symbols-outlined">person</span> <!-- icone do google --></label>
                         <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
-                        <label for="iemail">Login</label>
+                        
                     </div>
                     <div class="campo">
-                        <span class="material-symbols-outlined">vpn_key</span> <!-- icone do google -->
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span> <!-- icone do google --></label>
                         <input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                        <label for="isenha">Senha</label>
+                        
                     </div>
-                    <input type="submit" value="Entrar">
-                    <a href="#">Esqueci a senha <span class="material-symbols-outlined">mail</span></a> <!-- botão para esquecer a senha -->
+                    <input class="botao" type="submit" value="Entrar">
+                    <a class="botao"  href="#">Esqueci a senha <span class="material-symbols-outlined">mail</span></a> <!-- botão para esquecer a senha -->
                 </form>
             </div>
         </section>
