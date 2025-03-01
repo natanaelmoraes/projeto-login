@@ -5,14 +5,15 @@
     --cor1:#49a09d;
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:992px) { /* configuração para tablet */
 
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, rgb(63, 63, 63), lightgray);
     }
 
     #login{
         width: 80vw; /* para a div ter 80 de tamanho da tela */
+        height: 300px;
     }
 
     #imagem{
@@ -28,13 +29,14 @@
 }
 
 @media screen and (min-width:992px) {
-
+ /* configuração para desktop */
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, rgb(63, 63, 63), lightgray);
     }
 
     #login{
-        width:950px
+        width:950px;
+        height: 420px;
     }
 
     #imagem{
@@ -47,7 +49,8 @@
         width: 50%;
     }
     div p{
-        font-size: 1.2em
+        font-size: 1.2em;
+        margin: 20px 0px;
     }
 
     div h1{
